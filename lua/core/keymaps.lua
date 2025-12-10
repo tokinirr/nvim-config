@@ -4,8 +4,11 @@ vim.g.mapleader = " "
 -- Raccourci pour la fonction set
 local keymap = vim.keymap.set
 
--- on utilise ;; pour sortir du monde insertion
+-- on utilise ;; pour sortir du mode insertion
 keymap("i", ";;", "<ESC>", { desc = "Sortir du mode insertion avec ;;" })
+
+-- on utilise ;; pour sortir du mode visuel 
+keymap("v", ";;", "<ESC>", { desc = "Sortir du mode normal avec ;;" })
 
 -- on efface le surlignage de la recherche
 keymap("n", "<leader>nh", ":nohl<CR>", { desc = "Effacer le surlignage de la recherche" })
