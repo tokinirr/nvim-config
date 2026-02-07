@@ -1,2 +1,4 @@
-# nvim-config
-Configuration Neovim en Lua pour un usage quotidien. Plugins gérés avec Lazy. Intégration Telescope, mappings personnalisés, thème Dracula et réglages légers pour un démarrage rapide.
+# 💤 LazyVim
+
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
