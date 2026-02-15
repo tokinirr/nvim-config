@@ -1,41 +1,82 @@
 # lazy-vim 42
 ## Description
 
+This repository is intended for `42 students` who wish to use Neovim with the standard `42 header` configuration.
+
+
 ## command
 ### 🚀 Install Neovim Without Root Access (Linux)
 Since we don’t have `sudo` privileges, we’ll download the official archive and install it locally in our home directory.
 
-This command downloads the latest official release and saves it to your Downloads directory:
+* This command downloads the latest official release and saves it to your Downloads directory:
 ```shell
  wget -P ~/Downloads https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar
 ```
-First, create the `.local` directory if it doesn’t exist, then extract the archive:
+* First, create the `.local` directory if it doesn’t exist, then extract the archive:
 ```shell
  tar -xzf ~/Downloads/nvim-linux-x86_64.tar.gz -C ~/.local/ 
 ```
-After extraction, the binary will be located at:
+* After extraction, the binary will be located at:
 ```shell
 ~/.local/nvim-linux-x86_64/bin/nvim
 ```
 
-alias on zsh
+* alias on zsh
 ```shell
 echo "alias nvim='~/.local/nvim-linux-x86_64/bin/nvim'" >> ~/.zshrc
 ```
-alias on bash
+* alias on bash
 ```shell
 echo "alias nvim='~/.local/nvim-linux-x86_64/bin/nvim'" >> ~/.bashrc 
 ```
-Restart you terminal then verify the installation with :
+* Restart you terminal then verify the installation with :
 ```shell
 nvim --version
+```
+* if you want to use nvim as vim
+* alias on zsh
+```shell
+echo "alias vim='~/.local/nvim-linux-x86_64/bin/nvim'" >> ~/.zshrc
+```
+* alias on bash
+```shell
+echo "alias vim='~/.local/nvim-linux-x86_64/bin/nvim'" >> ~/.bashrc 
+```
 
+### 🚀 Install lazy-vim 42
+This guide is a remastered adaptation of the LazyVim installation process for this repository (see the documentation below).
+ * Make a backup of your current Neovim files:
+```shell
+# required
+mv ~/.config/nvim{,.bak}
+
+# optional but recommended
+mv ~/.local/share/nvim{,.bak}
+mv ~/.local/state/nvim{,.bak}
+mv ~/.cache/nvim{,.bak}
+```
+* clone the starter
+```shell
+git clone https://github.com/tokinirr/nvim-config.git ~/.config/nvim
+```
+* Remove the .git folder, so you can add it to your own repo later
+```shell
+rm -rf ~/.config/nvim/.git
+```
+* Start Neovim!
+```shell
+nvim
 ```
 
 ## Documentations 
 💤 LazyVim
 
-[noevim](https://neovim.io/)
+[neovim](https://neovim.io/)
 
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+
+42 header for vim
+[42 header](https://github.com/42paris/42header)
+
+                                                                                                                        
