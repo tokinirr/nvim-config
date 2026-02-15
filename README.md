@@ -10,11 +10,11 @@ Since we don’t have `sudo` privileges, we’ll download the official archive a
 
 * This command downloads the latest official release and saves it to your Downloads directory:
 ```shell
- wget -P ~/Downloads https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
 ```
 * First, create the `.local` directory if it doesn’t exist, then extract the archive:
 ```shell
- tar -xzf ~/Downloads/nvim-linux-x86_64.tar.gz -C ~/.local/ 
+ tar -xzf ./nvim-linux-x86_64.tar.gz -C ~/.local/ 
 ```
 * After extraction, the binary will be located at:
 ```shell
