@@ -72,6 +72,11 @@ Edit the global variable to change the mail
 ```shell
 export MAIL='<login>@student.42antananarivo.mg'
 ```
+## Use
+press `<esc>` to go on `normal` mode and tap the command
+```vim
+:Stdheader
+```
 
 ## Documentations 
 💤 LazyVim
