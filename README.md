@@ -67,6 +67,11 @@ rm -rf ~/.config/nvim/.git
 ```shell
 nvim
 ```
+### for header
+Edit the global variable to change the mail
+```shell
+export MAIL='<login>@student.42antananarivo.mg'
+```
 
 ## Documentations 
 💤 LazyVim
