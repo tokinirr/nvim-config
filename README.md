@@ -20,6 +20,10 @@ curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x8
 ```shell
 ~/.local/nvim-linux-x86_64/bin/nvim
 ```
+* give the execute rate
+```shell
+chmod +x ~/.local/nvim-linux-x86_64/bin/nvim
+```
 
 * alias on zsh
 ```shell
