@@ -73,8 +73,14 @@ nvim
 ```
 ### for header
 Edit the global variable to change the mail
+* bash
 ```shell
-export MAIL='<login>@student.42antananarivo.mg'
+echo "export MAIL='tsitoand@student.42antananarivo.mg'" >> ~/.bashrc
+```
+* zsh
+```shell
+```shell
+echo "export MAIL='tsitoand@student.42antananarivo.mg'" >> ~/.zshrc
 ```
 ## Use
 press `<esc>` to go on `normal` mode and tap the command
