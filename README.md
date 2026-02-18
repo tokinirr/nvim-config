@@ -75,12 +75,12 @@ nvim
 Edit the global variable to change the mail
 * bash
 ```shell
-echo "export MAIL='tsitoand@student.42antananarivo.mg'" >> ~/.bashrc
+echo "export MAIL='<youremail>'" >> ~/.bashrc
 ```
 * zsh
 ```shell
 ```shell
-echo "export MAIL='tsitoand@student.42antananarivo.mg'" >> ~/.zshrcy 
+echo "export MAIL='<yourmail>'" >> ~/.zshrcy 
 ```
 ## for better look we recomand adding neard fonts like it's marked on `lazyvim` documentation
 * create a directory to put the fonts in if it's doesn't exist yet
