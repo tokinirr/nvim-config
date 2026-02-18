@@ -82,7 +82,7 @@ echo "export MAIL='<youremail>'" >> ~/.bashrc
 ```shell
 echo "export MAIL='<yourmail>'" >> ~/.zshrcy 
 ```
-## for better look we recomand adding neard fonts like it's marked on `lazyvim` documentation
+# fonts installation
 * create a directory to put the fonts in if it's doesn't exist yet
 ```shell
 mkdir -p ~/.local/share/fonts
