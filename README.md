@@ -80,8 +80,18 @@ echo "export MAIL='tsitoand@student.42antananarivo.mg'" >> ~/.bashrc
 * zsh
 ```shell
 ```shell
-echo "export MAIL='tsitoand@student.42antananarivo.mg'" >> ~/.zshrc
+echo "export MAIL='tsitoand@student.42antananarivo.mg'" >> ~/.zshrcy 
 ```
+## for better look we recomand adding neard fonts like it's marked on `lazyvim` documentation
+* create a directory to put the fonts in if it's doesn't exist yet
+```shell
+mkdir -p ~/.local/share/fonts
+```
+then move the fonts on the directory
+```shell
+mv ~/.config/nvim/JetBrainsMono ~/.local/share/fonts/
+```
+
 ## Use
 press `<esc>` to go on `normal` mode and tap the command
 ```vim
