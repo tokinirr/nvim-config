@@ -99,7 +99,6 @@ press `<esc>` to go on `normal` mode and tap the command
 ```
 
 ## Documentations 
-💤 LazyVim
 
 [neovim](https://neovim.io/)
 
@@ -109,4 +108,5 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 42 header for vim
 [42 header](https://github.com/42paris/42header)
 
+[customize lazyvim](https://dev.to/crafts69guy/customizing-your-lazyvim-setup-for-personal-preferences-57)
                                                                                                                         
