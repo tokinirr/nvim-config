@@ -97,6 +97,7 @@ press `<esc>` to go on `normal` mode and tap the command
 ```vim
 :Stdheader
 ```
+or you can use the shorcut `Ctrl` + `Alt` + `h`
 
 ## Documentations 
 
