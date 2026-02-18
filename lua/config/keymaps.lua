@@ -5,3 +5,9 @@ vim.keymap.set("i", ";;", "<Esc>",
   {
     desc = "Escape with ;;"
   })
+
+-- Mapper Ctrl + Alt + h pour lancer la commande :Stdheader
+vim.keymap.set("n", "<C-M-h>", "<cmd>Stdheader<cr>",
+  { 
+    desc = "Générer le header 42"
+  })
