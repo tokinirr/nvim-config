@@ -3,7 +3,7 @@
 -- Add any additional options here
 
 local opt = vim.opt
-
+vim.opt.clipboard = "unnamedplus"
 opt.tabstop = 4 -- 4 espacs pour les tabulations
 opt.shiftwidth = 4 -- 4 espaces pour les indentations
 opt.expandtab = false -- ne change les tabulations en espaces

@@ -20,10 +20,6 @@ curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x8
 ```shell
 ~/.local/nvim-linux-x86_64/bin/nvim
 ```
-* give the execute rate
-```shell
-chmod +x ~/.local/nvim-linux-x86_64/bin/nvim
-```
 
 * alias on zsh
 ```shell
@@ -71,35 +67,9 @@ rm -rf ~/.config/nvim/.git
 ```shell
 nvim
 ```
-### for header
-Edit the global variable to change the mail
-* bash
-```shell
-echo "export MAIL='<youremail>'" >> ~/.bashrc
-```
-* zsh
-```shell
-```shell
-echo "export MAIL='<yourmail>'" >> ~/.zshrcy 
-```
-# fonts installation
-* create a directory to put the fonts in if it's doesn't exist yet
-```shell
-mkdir -p ~/.local/share/fonts
-```
-then move the fonts on the directory
-```shell
-mv ~/.config/nvim/JetBrainsMono ~/.local/share/fonts/
-```
-
-## Use
-press `<esc>` to go on `normal` mode and tap the command
-```vim
-:Stdheader
-```
-or you can use the shorcut `Ctrl` + `Alt` + `h`
 
 ## Documentations 
+💤 LazyVim
 
 [neovim](https://neovim.io/)
 
@@ -109,5 +79,4 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 42 header for vim
 [42 header](https://github.com/42paris/42header)
 
-[customize lazyvim](https://dev.to/crafts69guy/customizing-your-lazyvim-setup-for-personal-preferences-57)
                                                                                                                         
