@@ -98,6 +98,10 @@ press `<esc>` to go on `normal` mode and tap the command
 :Stdheader
 ```
 or you can use the shorcut `Ctrl` + `Alt` + `h`
+## keymaps for multi prompt
+`ctr + arrow` for multi promt
+`ctr + n` select next
+
 
 ## Documentations 
 
